@@ -1,3 +1,3 @@
 # gwc-website
 
-to be updated in the future. 
+To be updated in the future!
