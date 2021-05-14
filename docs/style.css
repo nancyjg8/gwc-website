@@ -1,0 +1,15 @@
+.instagramlogo{
+    width: 42px;
+    height: 42px;
+    vertical-align: top;
+    margin:11.25px -10px;
+    float: right;
+}
+
+.facebooklogo{
+    width: 35px;
+    height: 35px;
+    vertical-align: top;
+    margin:15px 20px;
+    float: right;
+}
