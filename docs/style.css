@@ -96,30 +96,41 @@
                             }
                             /*where first number will appear*/
                             
-                            .date button:first-child {
+                            .date div:first-child {
                                 grid-column: 1;
                             }
                             
-                            .date button {
+                            .date div {
                                 background-color: #AEE0E0;
                                 border: 50px;
                                 border-color: #222;
-                                height: 100px;
+                                height: 80px;
                                 padding: 10px;
                                 margin-top: 0%;
                                 outline: #3D7E7E;
                                 text-align: left;
+                                font-family: Raleway;
                             }
                             
-                            .date button:hover,
-                            .date button:focus {
+                            .date div:hover,
+                            .date div:focus {
                                 outline: none;
                                 background-color: #C4C4C4;
                                 color: #3D7E7E;
                             }
+                            /* to add event, use this inside the time tag :)*/
                             
-                            .date button:active,
-                            .date button.is-selected {
-                                background-color: #EBEBEB;
-                                color: #EBEBEB;
+                            .event {
+                                margin-left: 10 px;
+                                font-family: Raleway;
+                            }
+                            
+                            .eventLink {
+                                font-family: Raleway;
+                                text-decoration: none;
+                                color: black;
+                            }
+                            
+                            .eventLink:hover {
+                                color: white;
                             }
